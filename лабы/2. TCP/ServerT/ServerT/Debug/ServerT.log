@@ -1,0 +1,19 @@
+﻿Build started 22.10.2021 9:43:29.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\User\Documents\ПиБСП\TCP\ServerT\ServerT\ServerT.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ServerT.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ServerT.vcxproj -> C:\Users\User\Documents\ПиБСП\TCP\ServerT\Debug\ServerT.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ServerT.tlog\unsuccessfulbuild".
+         Touching "Debug\ServerT.tlog\ServerT.lastbuildstate".
+     1>Done Building Project "C:\Users\User\Documents\ПиБСП\TCP\ServerT\ServerT\ServerT.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.06
