@@ -1,0 +1,19 @@
+﻿Build started 29.11.2021 11:47:09.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\User\Documents\ПиБСП\PiBSP\лабы\4. Broadcast\ClientB\ClientB\ClientB.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ClientB.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ClientB.vcxproj -> C:\Users\User\Documents\ПиБСП\PiBSP\лабы\4. Broadcast\ClientB\Debug\ClientB.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ClientB.tlog\unsuccessfulbuild".
+         Touching "Debug\ClientB.tlog\ClientB.lastbuildstate".
+     1>Done Building Project "C:\Users\User\Documents\ПиБСП\PiBSP\лабы\4. Broadcast\ClientB\ClientB\ClientB.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.05

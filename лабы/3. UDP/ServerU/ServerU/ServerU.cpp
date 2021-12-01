@@ -1,4 +1,5 @@
-﻿#include "Errors.h"
+﻿#define _WINSOCK_DEPRECATED_NO_WARNINGS
+#include "Errors.h"
 #include <iostream>
 #include <clocale>
 #include <ctime>
@@ -15,7 +16,7 @@ int main()
     SOCKADDR_IN serv;
     serv.sin_family = AF_INET;
     serv.sin_port = htons(2000);
-    serv.sin_addr.s_addr = INADDR_ANY;
+    serv.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     try {
         cout << "ServerU\n\n";

@@ -17,7 +17,7 @@ int main()
     SOCKADDR_IN serv;                               
     serv.sin_family = AF_INET;                      
     serv.sin_port = htons(2000);                    
-    serv.sin_addr.s_addr = inet_addr("192.168.157.72");  
+    serv.sin_addr.s_addr = inet_addr("127.0.0.1");  
 
     try {
         cout << "ClientT\n\n";
