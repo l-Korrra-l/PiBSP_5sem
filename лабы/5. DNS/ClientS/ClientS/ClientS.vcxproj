@@ -150,7 +150,7 @@
     <ClCompile Include="ClientS.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ErrorMsgText.h" />
+    <ClInclude Include="Errors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

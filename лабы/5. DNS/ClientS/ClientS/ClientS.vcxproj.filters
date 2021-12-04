@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ErrorMsgText.h">
+    <ClInclude Include="Errors.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

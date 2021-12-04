@@ -4,7 +4,7 @@
 #include <clocale>
 #include <ctime>
 
-#include "ErrorMsgText.h"
+#include "Errors.h"
 #include "Winsock2.h"
 #pragma comment(lib, "WS2_32.lib")
 

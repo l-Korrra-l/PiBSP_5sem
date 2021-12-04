@@ -37,6 +37,11 @@ int main()
         int lc = sizeof(client);
         //GetServer(name, 2000, (sockaddr*)&client, &lc);
 
+        char serv_name[20];
+        int ls = sizeof(serv_name);
+        gethostname(serv_name, ls);
+        cout << "Server name: " << serv_name;
+
         for (;;) {
 
             if (GetRequestFromClient(name, 2000, (sockaddr*)&client, &lc)) {
@@ -108,6 +113,7 @@ bool  GetRequestFromClient(
 
             if (strcmp(ibuf, name) == 0) {
                 std::cout << "Name matches";
+
                 return true;
             }
             else {
@@ -124,6 +130,9 @@ bool PutAnswerToClient(
     int* lto   //[in] указатель на размер from 
 )
 {
+
+
+
     try {
         if ((sendto(sS, name, strlen(name) + 1, NULL, to, *lto)) == SOCKET_ERROR) {
             throw  SetErrorMsgText("send:", WSAGetLastError());
